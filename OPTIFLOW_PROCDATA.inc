@@ -4,7 +4,8 @@ TABLE PROCDATA(PROC,PROCDATASET)    "Process data"
                                                            PROCINVCOST        PROCKAPVARIABLE PROCFROMYEAR PROCLIFETIME PROCFIXCOST             
                                                                                                                                                 
 * OBS FF                                                                                                                                        
-Transport_Pipeline_CO2                                     0.002              1               2020         50           30                      
+* Updated 2026-11-03 by Claude: PROCFIXCOST 30 -> 19.04 (DEA 421 central 20 EUR2020 x 0.952). PROCINVCOST 0.002 and lifetime 50 unchanged.
+Transport_Pipeline_CO2                                     0.002              1               2020         50           19.04                   
                                                                                                                                                 
 ***CO2 compression                                                                                                                              
 CO2_Comp_Bio                                               0.03               1               2020         25           1500                    
