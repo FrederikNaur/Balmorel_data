@@ -3,6 +3,10 @@ SET TECH_GROUP "Technology Groups"
 /                                 
 CO2_Comp                          
 DAC_Y                             
+LDAC_Y
+REPAIR30_Y
+REPAIR40_Y
+REPAIR50_Y
 Pipeline_CO2_Group                
 Seq_On_Y                          
 Seq_Off_Y                         

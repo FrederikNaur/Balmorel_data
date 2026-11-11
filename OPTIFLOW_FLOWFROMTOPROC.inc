@@ -34,8 +34,27 @@ DK011_A                                                                         
 DK011_A                                                                                                                                                                                       .    CO2_Source_DAC            .    DAC_Y                     .    CO2_FLOW              
 DK011_A                                                                                                                                                                                       .    ElecBuffer_GJ             .    DAC_Y                     .    ELECFLOW_GJ           
 DK011_A                                                                                                                                                                                       .    HeatBuffer_GJ             .    DAC_Y                     .    HEATFLOW_GJ           
-DK011_A                                                                                                                                                                                       .    DAC_Y                     .    Money_buffer_T            .    OPERATIONCOST         
+*DK011_A                                                                                                                                                                                       .    DAC_Y                     .    Money_buffer_T            .    OPERATIONCOST   (removed in DAC-technologies: no OPERATIONCOST for solid DAC; a flow without PROCINOUTFLOW data would be unrestricted)
 DK011_A                                                                                                                                                                                       .    DAC_Y                     .    CO2_Comp_Gen              .    CO2_FLOW              
+
+* DAC-technologies: added 2026-11-02 (DAC_OptiFlow_inputs.xlsx, average scenario)
+*LDAC_Y
+DK011_A . CO2_Source_DAC . LDAC_Y . CO2_FLOW
+DK011_A . ElecBuffer_GJ . LDAC_Y . ELECFLOW_GJ
+DK011_A . LDAC_Y . Money_buffer_T . OPERATIONCOST
+DK011_A . LDAC_Y . CO2_Comp_Gen . CO2_FLOW
+*REPAIR30_Y
+DK011_A . CO2_Source_DAC . REPAIR30_Y . CO2_FLOW
+DK011_A . ElecBuffer_GJ . REPAIR30_Y . ELECFLOW_GJ
+DK011_A . REPAIR30_Y . CO2_Comp_Gen . CO2_FLOW
+*REPAIR40_Y
+DK011_A . CO2_Source_DAC . REPAIR40_Y . CO2_FLOW
+DK011_A . ElecBuffer_GJ . REPAIR40_Y . ELECFLOW_GJ
+DK011_A . REPAIR40_Y . CO2_Comp_Gen . CO2_FLOW
+*REPAIR50_Y
+DK011_A . CO2_Source_DAC . REPAIR50_Y . CO2_FLOW
+DK011_A . ElecBuffer_GJ . REPAIR50_Y . ELECFLOW_GJ
+DK011_A . REPAIR50_Y . CO2_Comp_Gen . CO2_FLOW
 DK011_A                                                                                                                                                                                       .    ElecBuffer_GJ             .    CO2_Comp_Gen              .    ELECFLOW_GJ           
 DK011_A                                                                                                                                                                                       .    CO2_Comp_Gen              .    CO2_Grid                  .    CO2_FLOW              
                                                                                                                                                                                                                                                                                        

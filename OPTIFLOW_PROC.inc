@@ -96,6 +96,13 @@ CO2_DAC_35
 CO2_DAC_40                                  
 CO2_DAC_45                                  
 CO2_DAC_50                                  
+* DAC-technologies: added 2026-11-02 (DAC_OptiFlow_inputs.xlsx, average scenario)
+CO2_LDAC_30
+CO2_LDAC_40
+CO2_LDAC_50
+CO2_REPAIR_30
+CO2_REPAIR_40
+CO2_REPAIR_50
 CO2_Grid                                    
 CO2_Neg_Sink                                
 CO2_Port_Handling                           
@@ -121,6 +128,10 @@ CO2_Source_Biogen
 CO2_Source_DAC                              
 CO2_Source_Fossil                           
 DAC_Y                                       
+LDAC_Y
+REPAIR30_Y
+REPAIR40_Y
+REPAIR50_Y
 Diesel_ICE_Legacy                           
 Diesel_ICE_Long                             
 Diesel_ICE_Medium                           

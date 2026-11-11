@@ -20,6 +20,13 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2040                                                                                                                                .    DK011_A .    CO2_DAC_40                  
 2045                                                                                                                                .    DK011_A .    CO2_DAC_45                  
 2050                                                                                                                                .    DK011_A .    CO2_DAC_50                  
+* DAC-technologies: added 2026-11-02 (DAC_OptiFlow_inputs.xlsx, average scenario)
+2030  .  DK011_A .  CO2_LDAC_30
+2040  .  DK011_A .  CO2_LDAC_40
+2050  .  DK011_A .  CO2_LDAC_50
+2030  .  DK011_A .  CO2_REPAIR_30
+2040  .  DK011_A .  CO2_REPAIR_40
+2050  .  DK011_A .  CO2_REPAIR_50
                                                                                                                                                                                   
 $ifi not %baloptCCS%==yes $goto NO_CCS                                                                                                                                            
 2020                                                                                                                                .    DK011_A .    CO2_Seq_On_20               

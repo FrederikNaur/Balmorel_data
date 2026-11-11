@@ -15,6 +15,13 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    CO2_DAC_40                   .    CO2_FLOW             .    IFLOWINOUT_OUT    
 2020                                                                                                            .    CO2_DAC_45                   .    CO2_FLOW             .    IFLOWINOUT_OUT    
 2020                                                                                                            .    CO2_DAC_50                   .    CO2_FLOW             .    IFLOWINOUT_OUT    
+* DAC-technologies: added 2026-11-02 (DAC_OptiFlow_inputs.xlsx, average scenario)
+2020  .  CO2_LDAC_30     .  CO2_FLOW  .  IFLOWINOUT_OUT
+2020  .  CO2_LDAC_40     .  CO2_FLOW  .  IFLOWINOUT_OUT
+2020  .  CO2_LDAC_50     .  CO2_FLOW  .  IFLOWINOUT_OUT
+2020  .  CO2_REPAIR_30   .  CO2_FLOW  .  IFLOWINOUT_OUT
+2020  .  CO2_REPAIR_40   .  CO2_FLOW  .  IFLOWINOUT_OUT
+2020  .  CO2_REPAIR_50   .  CO2_FLOW  .  IFLOWINOUT_OUT
 ***OBS FF                                                                                                                                                                                          
 2020                                                                                                            .    Transport_Pipeline_CO2       .    CO2_FLOW             .    IFLOWINOUT_SYM_INV
                                                                                                                                                                                                    

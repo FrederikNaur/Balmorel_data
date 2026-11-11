@@ -21,9 +21,24 @@ DK011_A                                                                         
                                                                                                                                                                                                                                                                                                        
 *DAC                                                                                                                                                                                                                                                                                                   
 DK011_A                                                                                                                                                                    .    DAC_Y                     .    CO2_FLOW               .    CO2_FLOW               .    IONEONE  1                      
-DK011_A                                                                                                                                                                    .    DAC_Y                     .    ELECFLOW_GJ            .    CO2_FLOW               .    IONEONE  1.53                   
-DK011_A                                                                                                                                                                    .    DAC_Y                     .    HEATFLOW_GJ            .    CO2_FLOW               .    IONEONE  0.25                   
-DK011_A                                                                                                                                                                    .    DAC_Y                     .    CO2_FLOW               .    OPERATIONCOST          .    IONEONE  52.9                   
+*DK011_A                                                                                                                                                                    .    DAC_Y                     .    ELECFLOW_GJ            .    CO2_FLOW               .    IONEONE  1.53   (previous base value, replaced in DAC-technologies)
+DK011_A . DAC_Y . ELECFLOW_GJ . CO2_FLOW . IONEONE 1.11111
+*DK011_A                                                                                                                                                                    .    DAC_Y                     .    HEATFLOW_GJ            .    CO2_FLOW               .    IONEONE  0.25   (previous base value, replaced in DAC-technologies)
+DK011_A . DAC_Y . HEATFLOW_GJ . CO2_FLOW . IONEONE 0.15873
+*DK011_A                                                                                                                                                                    .    DAC_Y                     .    CO2_FLOW               .    OPERATIONCOST          .    IONEONE  52.9   (removed in DAC-technologies: sorbent cost is inside the 4% fixed O&M)
+
+* DAC-technologies: added 2026-11-02 (DAC_OptiFlow_inputs.xlsx, average scenario)
+*LDAC_Y (liquid solvent, electrified calciner, no heat input)
+DK011_A . LDAC_Y . CO2_FLOW . CO2_FLOW . IONEONE 1
+DK011_A . LDAC_Y . ELECFLOW_GJ . CO2_FLOW . IONEONE 0.18096
+DK011_A . LDAC_Y . CO2_FLOW . OPERATIONCOST . IONEONE 4.75919
+*REPAIRxx_Y (RepAir, one template per vintage because electricity use differs by generation; no heat, no variable O&M)
+DK011_A . REPAIR30_Y . CO2_FLOW . CO2_FLOW . IONEONE 1
+DK011_A . REPAIR30_Y . ELECFLOW_GJ . CO2_FLOW . IONEONE 0.34722
+DK011_A . REPAIR40_Y . CO2_FLOW . CO2_FLOW . IONEONE 1
+DK011_A . REPAIR40_Y . ELECFLOW_GJ . CO2_FLOW . IONEONE 0.42735
+DK011_A . REPAIR50_Y . CO2_FLOW . CO2_FLOW . IONEONE 1
+DK011_A . REPAIR50_Y . ELECFLOW_GJ . CO2_FLOW . IONEONE 0.42735
                                                                                                                                                                                                                                                                                                        
 *Point sources                                                                                                                                                                                                                                                                                         
 *No direct PROCINOUTFLOW definition for source connections                                                                                                                                                                                                                                             

@@ -15,11 +15,24 @@ CO2_Comp_Gen                                               0.03               1 
 ***CO2 DAC                                                                                                                                      
 CO2_DAC_20                                                 5.84               1               2020         30           233600                  
 CO2_DAC_25                                                 4.853              1               2025         30           194120                  
-CO2_DAC_30                                                 4.264              1               2030         30           170560                  
+*CO2_DAC_30                                                 4.264              1               2030         30           170560   (previous base value, replaced in DAC-technologies)
+CO2_DAC_30                                                 4.0588             1               2030         25           162352                  
 CO2_DAC_35                                                 4.156              1               2035         30           166240                  
-CO2_DAC_40                                                 4.051              1               2040         30           162040                  
+*CO2_DAC_40                                                 4.051              1               2040         30           162040   (previous base value, replaced in DAC-technologies)
+CO2_DAC_40                                                 3.8559             1               2040         30           154235                  
 CO2_DAC_45                                                 3.989              1               2045         30           159560                  
-CO2_DAC_50                                                 3.928              1               2050         30           157120                  
+*CO2_DAC_50                                                 3.928              1               2050         30           157120   (previous base value, replaced in DAC-technologies)
+CO2_DAC_50                                                 3.7391             1               2050         30           149564                  
+
+* DAC-technologies: added 2026-11-02 (DAC_OptiFlow_inputs.xlsx, average scenario)
+* Liquid solvent DAC (template LDAC_Y)
+CO2_LDAC_30                                                4.6173             1               2030         30           170840                  
+CO2_LDAC_40                                                4.3864             1               2040         30           162298                  
+CO2_LDAC_50                                                4.2536             1               2050         30           157384                  
+* RepAir electrochemical DAC (templates REPAIR30_Y / REPAIR40_Y / REPAIR50_Y; Gen-2 / Gen-3 FOAK / Gen-3 NOAK)
+CO2_REPAIR_30                                              8.1912             1               2030         20           322469                  
+CO2_REPAIR_40                                              4.986              1               2040         20           118059                  
+CO2_REPAIR_50                                              3.7961             1               2050         20           94259                   
                                                                                                                                                 
 ***CO2 Sequestration Onshore                                                                                                                    
 CO2_Seq_On_20                                              0.733953230769231  1               2020         30           7600                    
